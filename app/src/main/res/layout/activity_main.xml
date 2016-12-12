@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    >
+
+    <TextView
+        android:id="@+id/btn_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/bottomsheetdialog"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/btn_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/toolbar_title"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/btn_appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CoordinatorLayout + AppbarLayout"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/btn_appbar_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="AppbarLayout 实践之仿简书首页效果"
+        android:gravity="center"
+        />
+</LinearLayout>
