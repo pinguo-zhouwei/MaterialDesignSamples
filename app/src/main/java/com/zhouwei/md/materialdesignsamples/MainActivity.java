@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.zhouwei.md.materialdesignsamples.behavoir.BehaviorSimpleActivity;
+import com.zhouwei.md.materialdesignsamples.behavoir.CustomBehaviorActivity;
+import com.zhouwei.md.materialdesignsamples.behavoir.CustomBehaviorActivity2;
 import com.zhouwei.md.materialdesignsamples.bottomsheetdialog.BottomSheetDialogActivity;
 import com.zhouwei.md.materialdesignsamples.toolbar.AppbarLayoutActivity;
 import com.zhouwei.md.materialdesignsamples.toolbar.JanshuActivity;
@@ -21,6 +24,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_toolbar).setOnClickListener(this);
         findViewById(R.id.btn_appbar_layout).setOnClickListener(this);
         findViewById(R.id.btn_appbar_layout1).setOnClickListener(this);
+        findViewById(R.id.swipe_btn).setOnClickListener(this);
+        findViewById(R.id.custom_behavior).setOnClickListener(this);
+        findViewById(R.id.custom_behavior2).setOnClickListener(this);
     }
 
     @Override
@@ -41,6 +47,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case  R.id.btn_appbar_layout1:
                 intent = new Intent(this, JanshuActivity.class);
+                startActivity(intent);
+                break;
+            case  R.id.swipe_btn:
+                intent = new Intent(this, BehaviorSimpleActivity.class);
+                startActivity(intent);
+                break;
+            case  R.id.custom_behavior:
+                intent = new Intent(this, CustomBehaviorActivity.class);
+                startActivity(intent);
+                break;
+            case  R.id.custom_behavior2:
+                intent = new Intent(this, CustomBehaviorActivity2.class);
                 startActivity(intent);
                 break;
         }

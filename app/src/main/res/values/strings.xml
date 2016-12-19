@@ -4,6 +4,15 @@
     <string name="toolbar_title">Toolbar使用示例</string>
     <string name="sub_title">Toolbar SubTitle</string>
 
+
+    <!-- Behavior -->
+    <string name="cover_header_behavior" translatable="false">com.zhouwei.md.materialdesignsamples.behavoir.CoverHeaderScrollBehavior</string>
+
+    <string name="content_behavior" translatable="false">com.zhouwei.md.materialdesignsamples.behavoir.HeaderScrollBehavior</string>
+    <string name="floating_title_behavoir">com.zhouwei.md.materialdesignsamples.behavoir.FloatingHeaderTitleBehavior</string>
+
+
+
     <string name="js_comment">%1$d 次阅.%2$d 评论.%3$d 喜欢.%4$d 打赏</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"

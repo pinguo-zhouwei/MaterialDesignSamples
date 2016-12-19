@@ -1,6 +1,7 @@
 package com.zhouwei.md.materialdesignsamples;
 
 import android.app.Application;
+import android.content.Context;
 
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
 import com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache;
@@ -17,6 +18,7 @@ import java.io.File;
 public class MaterialDesignSimpleApplication extends Application {
     private static final int MEMORY_SIZE = 5 * 1024 * 1024;
     private static final int DISK_SIZE = 20 * 1024 * 1024;
+    public static Context sContext;
     @Override
     public void onCreate() {
         super.onCreate();
@@ -35,5 +37,11 @@ public class MaterialDesignSimpleApplication extends Application {
                 .build();
 
         ImageLoader.getInstance().init(configuration);
+
+        sContext = this.getApplicationContext();
+    }
+
+    public static Context getAppContext(){
+        return sContext;
     }
 }

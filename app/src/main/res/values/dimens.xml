@@ -2,4 +2,11 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="header_height">200dp</dimen>
+    <dimen name="header_offset">50dp</dimen>
+
+    <dimen name="collapsedTitleHeight">50dp</dimen>
+    <dimen name="title_init_y">150dp</dimen>
+    <dimen name="title_margin_left">70dp</dimen>
 </resources>

@@ -39,4 +39,25 @@
         android:text="AppbarLayout 实践之仿简书首页效果"
         android:gravity="center"
         />
+    <TextView
+        android:id="@+id/swipe_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SwipeDismissBehavior示例"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/custom_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="自定义Behavior(一)"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/custom_behavior2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="自定义Behavior(二)，仿开眼首页"
+        android:gravity="center"
+        />
 </LinearLayout>

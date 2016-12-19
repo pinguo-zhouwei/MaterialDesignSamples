@@ -31,6 +31,18 @@
                   android:windowSoftInputMode="stateAlwaysHidden"
                   android:theme="@style/MDTheme"
             />
+        <activity android:name=".behavoir.BehaviorSimpleActivity"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:theme="@style/MDTheme"
+            />
+        <activity android:name=".behavoir.CustomBehaviorActivity"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:theme="@style/MDTheme"
+            />
+        <activity android:name=".behavoir.CustomBehaviorActivity2"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:theme="@style/MDTheme"
+            />
     </application>
 
 </manifest>
