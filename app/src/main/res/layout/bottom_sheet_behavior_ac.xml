@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <TextView
+       android:id="@+id/btn_show_bottom_sheet"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="显示/隐藏 BottomSheet"
+       android:background="@android:color/darker_gray"
+       android:textColor="@color/black"
+       android:padding="10dp"
+       />
+ <FrameLayout
+     android:id="@+id/share_view"
+     app:layout_behavior="@string/bottom_sheet_behavior"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@android:color/white"
+     android:orientation="vertical"
+     app:behavior_peekHeight="0dp"
+     >
+     <include layout="@layout/bottom_sheet_share_dialog"/>
+ </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -43,6 +43,14 @@
                   android:windowSoftInputMode="stateAlwaysHidden"
                   android:theme="@style/MDTheme"
             />
+        <activity android:name=".behavoir.FABSimpleActivity"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:theme="@style/MDTheme"
+            />
+        <activity android:name=".behavoir.BottomSheetBehaviorActivity"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:theme="@style/MDTheme"
+            />
     </application>
 
 </manifest>

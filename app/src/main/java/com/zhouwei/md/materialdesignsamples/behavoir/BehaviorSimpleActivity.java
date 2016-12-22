@@ -38,9 +38,9 @@ public class BehaviorSimpleActivity extends AppCompatActivity {
          */
         swipe.setSwipeDirection(SwipeDismissBehavior.SWIPE_DIRECTION_START_TO_END);
 
-        swipe.setStartAlphaSwipeDistance(0.7f);
+        swipe.setStartAlphaSwipeDistance(0f);
 
-        swipe.setSensitivity(0.5f);
+        swipe.setSensitivity(0.2f);
 
         swipe.setListener(new SwipeDismissBehavior.OnDismissListener() {
             @Override

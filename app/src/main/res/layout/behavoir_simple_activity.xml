@@ -9,7 +9,7 @@
         android:id="@+id/swipe_layout"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@color/colorPrimary"
+        android:background="@android:color/holo_red_light"
         >
         <TextView
             android:layout_width="wrap_content"

@@ -47,6 +47,20 @@
         android:gravity="center"
         />
     <TextView
+        android:id="@+id/bottom_sheet_demo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="BottomSheetBehavior示例"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/fab_snack_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="FAB、Snackbar 示例"
+        android:gravity="center"
+        />
+    <TextView
         android:id="@+id/custom_behavior"
         android:layout_width="match_parent"
         android:layout_height="50dp"

@@ -74,7 +74,7 @@ public class CoverHeaderScrollBehavior extends CoordinatorLayout.Behavior<View> 
     }
 
     /**
-     *
+     * 获取Header 高度
      * @return
      */
     public int getHeaderHeight(){

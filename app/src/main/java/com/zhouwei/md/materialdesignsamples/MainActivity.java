@@ -6,8 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.zhouwei.md.materialdesignsamples.behavoir.BehaviorSimpleActivity;
+import com.zhouwei.md.materialdesignsamples.behavoir.BottomSheetBehaviorActivity;
 import com.zhouwei.md.materialdesignsamples.behavoir.CustomBehaviorActivity;
 import com.zhouwei.md.materialdesignsamples.behavoir.CustomBehaviorActivity2;
+import com.zhouwei.md.materialdesignsamples.behavoir.FABSimpleActivity;
 import com.zhouwei.md.materialdesignsamples.bottomsheetdialog.BottomSheetDialogActivity;
 import com.zhouwei.md.materialdesignsamples.toolbar.AppbarLayoutActivity;
 import com.zhouwei.md.materialdesignsamples.toolbar.JanshuActivity;
@@ -27,6 +29,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.swipe_btn).setOnClickListener(this);
         findViewById(R.id.custom_behavior).setOnClickListener(this);
         findViewById(R.id.custom_behavior2).setOnClickListener(this);
+        findViewById(R.id.fab_snack_btn).setOnClickListener(this);
+        findViewById(R.id.bottom_sheet_demo).setOnClickListener(this);
     }
 
     @Override
@@ -59,6 +63,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case  R.id.custom_behavior2:
                 intent = new Intent(this, CustomBehaviorActivity2.class);
+                startActivity(intent);
+                break;
+            case  R.id.fab_snack_btn:
+                intent = new Intent(this, FABSimpleActivity.class);
+                startActivity(intent);
+                break;
+            case  R.id.bottom_sheet_demo:
+                intent = new Intent(this, BottomSheetBehaviorActivity.class);
                 startActivity(intent);
                 break;
         }
