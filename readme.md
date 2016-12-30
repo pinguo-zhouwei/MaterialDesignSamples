@@ -33,4 +33,12 @@
 ##### 8 自定义Behavior (二)
 详情请看：简书博客：[Material Design 之 Behavior 的使用和自定义 Behavior](http://www.jianshu.com/p/82d18b0d18f4)
            掘金专栏：[Material Design 之 Behavior 的使用和自定义 Behavior](https://gold.xitu.io/post/585bb76961ff4b006cc9d5b6)
-##### 9...
+
+##### 9 TabLayout +ViewPager + Fragment
+  详情请看：简书博客：[Material Design 之 TabLayout 使用](http://www.jianshu.com/p/13f334eb16ce)
+           掘金专栏：[Material Design 之 TabLayout 使用](https://gold.xitu.io/post/5864eb13570c3500695dcd1a)
+##### 10 BottomNavigationView 示例
+
+##### 11 TextInputLayout + TextInputEditText 示例
+
+##### 12...

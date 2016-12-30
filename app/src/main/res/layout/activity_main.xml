@@ -82,7 +82,7 @@
              android:id="@+id/tab_layout_simple1"
              android:layout_width="match_parent"
              android:layout_height="50dp"
-             android:text=" TabLayout示例(-)"
+             android:text=" TabLayout示例(一)"
              android:gravity="center"
              />
          <TextView
