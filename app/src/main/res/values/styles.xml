@@ -33,4 +33,9 @@
     <style name="OverFlowIcon" parent="Widget.AppCompat.ActionButton.Overflow">
         <item name="android:src">@drawable/abc_ic_menu_moreoverflow_mtrl_alpha</item>
     </style>
+
+    <style name="TextOverCount" parent="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">
+      <item name="android:textColor">@android:color/holo_green_light</item>
+      <item name="android:textSize">20sp</item>
+    </style>
 </resources>
