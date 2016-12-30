@@ -10,4 +10,9 @@
     <color name="black_sub">#757575</color>
     <color name="init_bg_color"> #b0ffffff</color>
     <color name="end_bg_color">#e4e4e4</color>
+
+    <color name="colorBack">#263238</color>
+    <color name="buttoncolor">#00838F</color>
+    <color name="textColor">#ffffff</color>
+    <color name="colorHint">#546E7A</color>
 </resources>

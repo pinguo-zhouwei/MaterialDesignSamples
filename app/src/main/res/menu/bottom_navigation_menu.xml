@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_search"
+          android:title="Photo"
+          android:icon="@drawable/ic_insert_photo_black_24dp" />
+    <item android:id="@+id/action_settings"
+          android:title="Favorite"
+          android:icon="@drawable/ic_favorite_border_black_24dp" />
+    <item android:id="@+id/action_navigation"
+          android:title="Play"
+          android:icon="@drawable/ic_play_circle_outline_black_24dp" />
+</menu>

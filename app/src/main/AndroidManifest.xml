@@ -51,6 +51,22 @@
                   android:windowSoftInputMode="stateAlwaysHidden"
                   android:theme="@style/MDTheme"
             />
+        <activity android:name=".navigation.TabActivity"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:theme="@style/MDTheme"
+            />
+        <activity android:name=".navigation.TabActivity2"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:theme="@style/MDTheme"
+            />
+        <activity android:name=".navigation.BottomNavigationActivity"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:theme="@style/MDTheme"
+            />
+        <activity android:name=".edit.TextInputSimpleActivity"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:theme="@style/MDTheme"
+            />
     </application>
 
 </manifest>

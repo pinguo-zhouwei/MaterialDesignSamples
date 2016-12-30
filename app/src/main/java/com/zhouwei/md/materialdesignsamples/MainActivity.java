@@ -11,6 +11,10 @@ import com.zhouwei.md.materialdesignsamples.behavoir.CustomBehaviorActivity;
 import com.zhouwei.md.materialdesignsamples.behavoir.CustomBehaviorActivity2;
 import com.zhouwei.md.materialdesignsamples.behavoir.FABSimpleActivity;
 import com.zhouwei.md.materialdesignsamples.bottomsheetdialog.BottomSheetDialogActivity;
+import com.zhouwei.md.materialdesignsamples.edit.TextInputSimpleActivity;
+import com.zhouwei.md.materialdesignsamples.navigation.BottomNavigationActivity;
+import com.zhouwei.md.materialdesignsamples.navigation.TabActivity;
+import com.zhouwei.md.materialdesignsamples.navigation.TabActivity2;
 import com.zhouwei.md.materialdesignsamples.toolbar.AppbarLayoutActivity;
 import com.zhouwei.md.materialdesignsamples.toolbar.JanshuActivity;
 import com.zhouwei.md.materialdesignsamples.toolbar.ToolbarActivity;
@@ -31,6 +35,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.custom_behavior2).setOnClickListener(this);
         findViewById(R.id.fab_snack_btn).setOnClickListener(this);
         findViewById(R.id.bottom_sheet_demo).setOnClickListener(this);
+        findViewById(R.id.tab_layout_simple1).setOnClickListener(this);
+        findViewById(R.id.tab_layout_simple2).setOnClickListener(this);
+        findViewById(R.id.bottom_navigaiton_simple).setOnClickListener(this);
+        findViewById(R.id.text_input_simple).setOnClickListener(this);
     }
 
     @Override
@@ -71,6 +79,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case  R.id.bottom_sheet_demo:
                 intent = new Intent(this, BottomSheetBehaviorActivity.class);
+                startActivity(intent);
+                break;
+            case  R.id.tab_layout_simple1:
+                intent = new Intent(this, TabActivity2.class);
+                startActivity(intent);
+                break;
+            case  R.id.tab_layout_simple2:
+                intent = new Intent(this, TabActivity.class);
+                startActivity(intent);
+                break;
+            case  R.id.bottom_navigaiton_simple:
+                intent = new Intent(this, BottomNavigationActivity.class);
+                startActivity(intent);
+                break;
+            case  R.id.text_input_simple:
+                intent = new Intent(this, TextInputSimpleActivity.class);
                 startActivity(intent);
                 break;
         }

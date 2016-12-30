@@ -4,6 +4,10 @@
     <string name="toolbar_title">Toolbar使用示例</string>
     <string name="sub_title">Toolbar SubTitle</string>
 
+    <string name="my_device">我的设备</string>
+    <string name="near_device">附近设备</string>
+    <string name="my_friend">我的好友</string>
+
 
     <!-- Behavior -->
     <string name="cover_header_behavior" translatable="false">com.zhouwei.md.materialdesignsamples.behavoir.CoverHeaderScrollBehavior</string>

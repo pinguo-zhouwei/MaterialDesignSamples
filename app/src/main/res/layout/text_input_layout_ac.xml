@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+    >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@mipmap/navigation_back_white"
+        android:background="@color/colorPrimary"
+        app:title="TextInputLayout"
+        app:titleTextColor="@color/white"
+        />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_layout_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColorHint="@color/colorHint"
+        >
+         <android.support.design.widget.TextInputEditText
+             android:id="@+id/text_input_user"
+             android:layout_width="match_parent"
+             android:layout_height="48dp"
+             android:hint="用户名"
+             android:inputType="text"
+             android:textColor="@color/black"
+             />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColorHint="@color/colorHint"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorHint"
+        app:passwordToggleDrawable="@drawable/ic_eye_grey_24dp"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/text_input_password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="密码"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="84dp"
+        android:background="@color/buttoncolor"
+        android:text="登录"
+        android:textColor="@color/textColor" />
+</LinearLayout>
