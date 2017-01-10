@@ -67,6 +67,10 @@
                   android:windowSoftInputMode="stateAlwaysHidden"
                   android:theme="@style/MDTheme"
             />
+        <activity android:name=".cardview.CardViewSimpleActivity"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:theme="@style/MDTheme"
+            />
     </application>
 
 </manifest>

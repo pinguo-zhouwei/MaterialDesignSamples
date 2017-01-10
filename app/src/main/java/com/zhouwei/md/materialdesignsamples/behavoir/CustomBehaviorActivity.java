@@ -3,6 +3,7 @@ package com.zhouwei.md.materialdesignsamples.behavoir;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -28,6 +29,7 @@ public class CustomBehaviorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.custom_behavior_activity);
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        mRecyclerView.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL));
         LinearLayoutManager manager = new LinearLayoutManager(this);
         manager.setOrientation(LinearLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(manager);

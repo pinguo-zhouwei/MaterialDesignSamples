@@ -51,15 +51,17 @@
       android:layout_marginRight="15dp"
       android:layout_gravity="bottom|right"
       app:rippleColor="@android:color/darker_gray"
+      app:elevation="3dp"
       />
   <android.support.design.widget.FloatingActionButton
       android:id="@+id/fab2"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:src="@android:drawable/ic_dialog_email"
+      android:src="@drawable/ic_book_list"
       android:layout_marginBottom="20dp"
       android:layout_marginRight="15dp"
       app:layout_anchor="@+id/appbar_layout"
       app:layout_anchorGravity="bottom|right"
+      app:elevation="5dp"
       />
 </android.support.design.widget.CoordinatorLayout>

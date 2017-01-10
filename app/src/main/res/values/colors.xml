@@ -15,4 +15,8 @@
     <color name="buttoncolor">#00838F</color>
     <color name="textColor">#ffffff</color>
     <color name="colorHint">#546E7A</color>
+
+    <color name="gold">#FFD700</color>
+    <color name="orange">#FFA500</color>
+    <color name="DarkCyan">#008B8B</color>
 </resources>

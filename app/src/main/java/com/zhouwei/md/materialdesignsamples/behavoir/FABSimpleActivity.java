@@ -8,8 +8,11 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import com.zhouwei.md.materialdesignsamples.R;
+
+import static android.support.design.widget.Snackbar.make;
 
 /**
  * Created by zhouwei on 16/12/20.
@@ -29,7 +32,7 @@ public class FABSimpleActivity extends AppCompatActivity {
         fab1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(fab1,"点击fab1",Snackbar.LENGTH_LONG).show();
+                make(fab1,"点击fab1",Snackbar.LENGTH_LONG).show();
             }
         });
 
@@ -57,11 +60,27 @@ public class FABSimpleActivity extends AppCompatActivity {
         fab2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(fab2,"哈哈，我是Snackbar2",Snackbar.LENGTH_SHORT).show();
+
+                showSnackbar();
+
             }
         });
 
 
 
+    }
+
+    private void showSnackbar(){
+        Snackbar snackbar = Snackbar.make(fab2,"哈哈，我是Snackbar",Snackbar.LENGTH_SHORT);
+        snackbar.setAction("UNDO", new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(FABSimpleActivity.this,"执行Undo操作",Toast.LENGTH_LONG).show();
+            }
+        });
+
+        snackbar.setActionTextColor(getResources().getColor(R.color.DarkCyan));
+        snackbar.setText("已经删除1张照片");
+        snackbar.show();
     }
 }

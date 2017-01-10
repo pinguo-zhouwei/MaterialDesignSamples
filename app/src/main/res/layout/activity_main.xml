@@ -106,6 +106,13 @@
              android:text=" TextInputLayout"
              android:gravity="center"
              />
+         <TextView
+             android:id="@+id/card_view_simple"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:text=" CardView"
+             android:gravity="center"
+             />
      </LinearLayout>
 
 </ScrollView>
