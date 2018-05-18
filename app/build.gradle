@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "24.0.2"
+    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "com.zhouwei.md.materialdesignsamples"
         minSdkVersion 16
@@ -20,14 +20,14 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.0.0'
-    compile 'com.android.support:cardview-v7:25.0.0'
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:design:25.0.0'
-    compile 'com.bigkoo:convenientbanner:2.0.0'//banner
-    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+    implementation 'com.android.support:appcompat-v7:25.0.0'
+    implementation 'com.android.support:cardview-v7:25.0.0'
+    androidTestImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:design:25.0.0'
+    implementation 'com.bigkoo:convenientbanner:2.0.0'//banner
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
 }
